@@ -95,14 +95,58 @@ footer{
 	color: white;
 }
 .contact{
-	margin-top: 20px;
+	margin-top: 50px;
+	background-color: #071724;
+	color: #FFF;
 
 }
 #discord{
-	
-	height: 200px;
-	width: 200px;
+	margin-top: 15px;
+	height: 150px;
+	width: 150px;
+}
+#deskripsi1{
+	margin-top: 35px;
 }
 #contactus{
-	color:
+	color:#FFF;
+ }
+ .right{
+ 	float: right;
+ }
+ .jasa{
+ 	margin-top: 50px;
+ }
+ #jasa1{
+
+ 	width: 600px;
+ 	height: 300px;
+ }
+ .work-box{
+ 	    background-color: white;
+ 	    margin-bottom: 3rem;	
+ 	    width: 600px;
+ 	    height: 380px; 	  
+ 	     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);	
+ }
+ .bdn{
+ 	margin-top: 10px;
+ }
+ .line{
+ 	width: 40px;
+    height: 5px;
+    background-color: red;
+    margin: 0 auto;
+ }
+ .line1{
+ 	width: 40px;
+    height: 5px;
+    background-color: black;
+    margin: 0 auto;
+ }
+ .line2{
+ 	width: 40px;
+    height: 5px;
+    background-color: #deb328;
+    margin: 0 auto;
  }
