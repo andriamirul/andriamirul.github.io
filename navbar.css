@@ -25,9 +25,8 @@
 }
 .quotation{
   font-size: 30px;
-  //margin: 0 auto;
   quotes: "\201C""\201D""\2018""\2019";
-  padding: 50px 20px;
+  padding: 20px 20px;
   line-height: 1.4;
 }
 
@@ -60,11 +59,7 @@ footer{
   font-style: italic;
 }
 .foto1{
-	background-color: #071724;
-
-
-	
-
+	background-color: #071724;	
 }
 #fotoke1{
 	margin-left: 30px;
@@ -90,7 +85,7 @@ footer{
 }
 #openreq{
 	margin-top: 10px;
-	margin-left: 300px;
+
 	height: 2s00px;
 	width: 200px;
 
@@ -104,10 +99,10 @@ footer{
 
 }
 #discord{
-	margin-left: 300px;
+	
 	height: 200px;
 	width: 200px;
 }
 #contactus{
-	color: black;
-}
+	color:
+ }
