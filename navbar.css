@@ -1,4 +1,12 @@
 
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+}.carousel-control-next /*, .carousel-indicators */ {
+    filter: invert(100%);
+}
+a{
+  text-decoration: none !important;
+}
 .left{
 	float : left;
 }
@@ -165,10 +173,15 @@ footer{
   border-radius: 20%;
   margin-top: 20px;
     margin-right:20px;
+    margin-bottom: 32px;
 }.center{
   text-align: center;
 
-}#portofolio{
+}
+.livechat{
+  height: 500px !important;
+}
+#portofolio{
   min-height: 200px !important;
 }.socmed{
   min-height: 300px !important;
@@ -183,7 +196,7 @@ footer{
   width:600px !important;
   height: 338px !important;
 }.image_comment{
-  font-size: 10px;
+  font-size: 13px !important;
 }
 .content {
   background-color: white;
@@ -191,7 +204,8 @@ footer{
   width : 50%;
     margin: auto;
     margin-bottom: 20px;
-    border-radius: 3%;
+    font-family: 'Lato', sans-serif;
+    box-shadow: 5px 5px #cccc;
 }html,body{
     overflow-x: hidden !important;
 }   
@@ -212,11 +226,12 @@ footer{
   #portofolios{
     width: 120px !important ;
     margin-top: 40px;
+
     margin-right:50px;
   }.judul{
     font-size : 30px ;
   }.socmed-tab{
-    height: 435px;
+    height: 520px;
   }.lovia_content{
     font-size: 30px !important;
   }.image_comment{
