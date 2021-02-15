@@ -24,7 +24,7 @@
 	height: 60px;
 }
 .quotation{
-  font-size: 30px;
+  font-size: 20px;
   quotes: "\201C""\201D""\2018""\2019";
   padding: 20px 20px;
   line-height: 1.4;
@@ -82,6 +82,11 @@ footer{
 }
 .open-req{
 	background-color: #071724;
+
+}
+.socmed-tab{
+  background-color: #071724;
+
 }
 #openreq{
 	margin-top: 10px;
@@ -121,6 +126,7 @@ footer{
 
  	width: 600px;
  	height: 300px;
+
  }
  .work-box{
  	    background-color: white;
@@ -149,4 +155,73 @@ footer{
     height: 5px;
     background-color: #deb328;
     margin: 0 auto;
- }
+ }#gambar1{
+    border-radius: 100%;
+}
+.judul{
+  text-align:center;
+}#portofolios{
+  width:80px !important;
+  border-radius: 20%;
+  margin-top: 20px;
+    margin-right:20px;
+}.center{
+  text-align: center;
+
+}#portofolio{
+  min-height: 200px !important;
+}.socmed{
+  min-height: 300px !important;
+}.project{
+  min-height: 200px !important;
+}.block{
+  display: block;
+  margin-top:5px !important;
+}.produkindo_target{
+  font-color : black !important;
+}.utm{
+  width:600px !important;
+  height: 338px !important;
+}.image_comment{
+  font-size: 10px;
+}
+.content {
+  background-color: white;
+  padding: 10px;
+  width : 50%;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 3%;
+}html,body{
+    overflow-x: hidden !important;
+}   
+@media (max-width:1281px) { 
+/* hi-res laptops and desktops */ 
+.open-req{
+    height: 300px;
+  } 
+  .jasa{
+    min-height: 300px;
+  }.quotation{
+    font-size: 30px ;
+  }#gambar1{
+    width: 30%;
+  }footer{
+    font-size: 40px ;
+  }
+  #portofolios{
+    width: 120px !important ;
+    margin-top: 40px;
+    margin-right:50px;
+  }.judul{
+    font-size : 30px ;
+  }.socmed-tab{
+    height: 435px;
+  }.lovia_content{
+    font-size: 30px !important;
+  }.image_comment{
+    font-size: 15px !important;
+  }.content {
+    width: 80%;
+  }
+}
