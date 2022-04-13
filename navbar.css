@@ -3,6 +3,12 @@
     filter: invert(100%);
 }.carousel-control-next /*, .carousel-indicators */ {
     filter: invert(100%);
+}.container-fluid{
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+.dhealth{
+  width :100px !important
 }
 a{
   text-decoration: none !important;
@@ -169,7 +175,7 @@ footer{
 .judul{
   text-align:center;
 }#portofolios{
-  width:80px !important;
+  width:80px;
   border-radius: 20%;
   margin-top: 20px;
     margin-right:20px;
@@ -177,6 +183,10 @@ footer{
 }.center{
   text-align: center;
 
+}
+.tmra{
+  height: 400px;
+  width: 800px;
 }
 .livechat{
   height: 500px !important;
@@ -201,6 +211,7 @@ footer{
 .content {
   background-color: white;
   padding: 10px;
+  border-radius: 15px;
   width : 50%;
     margin: auto;
     margin-bottom: 50px !important;
@@ -224,7 +235,7 @@ footer{
     font-size: 40px ;
   }
   #portofolios{
-    width: 120px !important ;
+    width: 150px !important ;
     margin-top: 40px;
 
     margin-right:50px;
