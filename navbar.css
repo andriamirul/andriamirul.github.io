@@ -1,4 +1,21 @@
-
+.done-work{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+.work-list{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+.main-content{
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+}
 .carousel-control-prev /*, .carousel-indicators */ {
     filter: invert(100%);
 }.carousel-control-next /*, .carousel-indicators */ {
@@ -46,31 +63,31 @@ a{
 
 .quotation:before {
   content: open-quote;
-  display: inline;
+  display: block;
   height: 0;
   line-height: 0;
-  left: -10px;
+  left: -340px;
   position: relative;
   top: 30px;
   color: #ccc;
-  font-size: 3em;
+  font-size: 3em; 
 }
 .quotation::after {
   content: close-quote;
   display: inline;
   height: 0;
   line-height: 0;
-  left: 10px;
+  /* left: 10px; */
   position: relative;
   top: 35px;
   color: #ccc;
   font-size: 3em;
 }
 footer{
-  margin:0;
-  text-align: center;
+  /* margin:0; */
+  /* text-align: center; */
   font-size: 1.5em;
-  font-style: italic;
+  /* font-style: italic; */
 }
 .foto1{
 	background-color: #071724;	
@@ -200,8 +217,10 @@ footer{
 }.block{
   display: block;
   margin-top:5px !important;
-}.produkindo_target{
-  font-color : black !important;
+}.target{
+  color : black !important;
+  text-align: left;
+  margin: 2%;
 }.utm{
   width:600px !important;
   height: 338px !important;
@@ -209,6 +228,7 @@ footer{
   font-size: 13px !important;
 }
 .content {
+  text-align: center;
   background-color: white;
   padding: 10px;
   border-radius: 15px;
@@ -222,6 +242,13 @@ footer{
 }   
 @media (max-width:1281px) { 
 /* hi-res laptops and desktops */ 
+.main-content{
+  /* padding: 50px; */
+  width: 80%;
+}
+.done-work b{
+  font-size: 30px !important;
+}
 .open-req{
     height: 300px;
   } 
