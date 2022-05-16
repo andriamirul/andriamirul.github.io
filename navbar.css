@@ -248,6 +248,13 @@ footer{
 }html,body{
     overflow-x: hidden !important;
 }   
+
+@media (max-width:1280px){
+  .location_email{
+    color: black !important;
+  }
+}
+
 @media (max-width:1281px) { 
 /* hi-res laptops and desktops */ 
 .main-content{
